@@ -226,6 +226,14 @@ footer {
     margin-bottom: 20px;
   }
 
+  .about-image {
+    text-align: center;
+  }
+
+  .about-image img {
+    width: 80%;
+  }
+
   .research-image img {
     width: 80%;
   }
