@@ -129,29 +129,21 @@ section {
 
 /* About Section */
 .about-content {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
 }
 
 .about-text {
-  flex: 3;
-  min-width: 300px;
-  padding-right: 30px;
 }
 
 .about-text p {
   margin-bottom: 1em;
 }
 
-.about-image {
-  flex: 2;
-  min-width: 200px;
-}
-
-.about-image img {
-  width: 100%;
+.about-photo {
+  float: left;
+  width: 200px;
   border-radius: 8px;
+  margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 /* Research Section */
@@ -200,6 +192,12 @@ section {
   margin-bottom: 10px;
 }
 
+.highlight {
+  background-color: #ffffcc; /* Light yellow */
+  padding: 15px;
+  border-radius: 8px;
+}
+
 /* Footer */
 footer {
   border-top: 1px solid #eee;
@@ -232,6 +230,13 @@ footer {
 
   .about-image img {
     width: 80%;
+  }
+
+  .about-photo {
+    float: none;
+    width: 50%;
+    display: block;
+    margin: 0 auto 20px;
   }
 
   .research-image img {
