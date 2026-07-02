@@ -105,6 +105,11 @@ header {
   margin-bottom: 0;
 }
 
+.contact-note {
+  color: var(--text-light);
+  font-size: 0.95em;
+}
+
 .about-photo {
   float: left;
   width: 220px;
