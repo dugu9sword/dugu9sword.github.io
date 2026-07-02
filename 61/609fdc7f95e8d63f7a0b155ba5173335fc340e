@@ -1,0 +1,133 @@
+index.html
+  s_89a78da0b3c677::t_96fd27a954113a 46,48 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a46a02c1680d92764bc8f4a","tool_type":"agent","tool_id":"apply_patch","line_ranges":[{"Single":46},{"Single":48}]}]}
+  s_89a78da0b3c677::t_245107df3a5309 47 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a46a03c1680d92764bc8f89","tool_type":"agent","tool_id":"apply_patch","line_ranges":[{"Single":47}]}]}
+stylesheet.css
+  s_89a78da0b3c677::t_31a2499b760b65 108-112 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a46a0331680d92764bc8f69","tool_type":"agent","tool_id":"apply_patch","line_ranges":[{"Range":[108,112]}]}]}
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.5",
+  "base_commit_sha": "61609fdc7f95e8d63f7a0b155ba5173335fc340e",
+  "prompts": {},
+  "sessions": {
+    "s_89a78da0b3c677": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "69ddf796919956327a446551",
+        "model": "gpt-5.5__dev"
+      },
+      "human_author": "zhouyi <dugu9sword@163.com>"
+    }
+  },
+  "attestation_metadata": {
+    "index.html": [
+      {
+        "hash": "s_89a78da0b3c677::t_96fd27a954113a",
+        "line_ranges": [
+          {
+            "Single": 46
+          },
+          {
+            "Single": 48
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a46a02c1680d92764bc8f4a",
+            "tool_type": "agent",
+            "tool_id": "apply_patch",
+            "line_ranges": [
+              {
+                "Single": 46
+              },
+              {
+                "Single": 48
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "hash": "s_89a78da0b3c677::t_245107df3a5309",
+        "line_ranges": [
+          {
+            "Single": 47
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a46a03c1680d92764bc8f89",
+            "tool_type": "agent",
+            "tool_id": "apply_patch",
+            "line_ranges": [
+              {
+                "Single": 47
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "stylesheet.css": [
+      {
+        "hash": "s_89a78da0b3c677::t_31a2499b760b65",
+        "line_ranges": [
+          {
+            "Range": [
+              108,
+              112
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a46a0331680d92764bc8f69",
+            "tool_type": "agent",
+            "tool_id": "apply_patch",
+            "line_ranges": [
+              {
+                "Range": [
+                  108,
+                  112
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "remote_transcripts": {
+    "s_89a78da0b3c677": {
+      "tool": "trae",
+      "conversation_id": "69ddf796919956327a446551",
+      "session_id": "69ddf796919956327a446551",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_89a78da0b3c677::t_245107df3a5309": {
+      "tool": "trae",
+      "conversation_id": "69ddf796919956327a446551",
+      "session_id": "69ddf796919956327a446551",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_89a78da0b3c677::t_31a2499b760b65": {
+      "tool": "trae",
+      "conversation_id": "69ddf796919956327a446551",
+      "session_id": "69ddf796919956327a446551",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_89a78da0b3c677::t_96fd27a954113a": {
+      "tool": "trae",
+      "conversation_id": "69ddf796919956327a446551",
+      "session_id": "69ddf796919956327a446551",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    }
+  }
+}
