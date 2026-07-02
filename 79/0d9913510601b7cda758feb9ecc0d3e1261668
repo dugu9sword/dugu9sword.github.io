@@ -1,0 +1,60 @@
+index.html
+  s_89a78da0b3c677::t_94d5f94b83e84d 47 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a46a4391680d92764bc901d","tool_type":"agent","tool_id":"apply_patch","line_ranges":[{"Single":47}]}]}
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.5",
+  "base_commit_sha": "790d9913510601b7cda758feb9ecc0d3e1261668",
+  "prompts": {},
+  "sessions": {
+    "s_89a78da0b3c677": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "69ddf796919956327a446551",
+        "model": "gpt-5.5__dev"
+      },
+      "human_author": "zhouyi <dugu9sword@163.com>"
+    }
+  },
+  "attestation_metadata": {
+    "index.html": [
+      {
+        "hash": "s_89a78da0b3c677::t_94d5f94b83e84d",
+        "line_ranges": [
+          {
+            "Single": 47
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a46a4391680d92764bc901d",
+            "tool_type": "agent",
+            "tool_id": "apply_patch",
+            "line_ranges": [
+              {
+                "Single": 47
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "remote_transcripts": {
+    "s_89a78da0b3c677": {
+      "tool": "trae",
+      "conversation_id": "69ddf796919956327a446551",
+      "session_id": "69ddf796919956327a446551",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_89a78da0b3c677::t_94d5f94b83e84d": {
+      "tool": "trae",
+      "conversation_id": "69ddf796919956327a446551",
+      "session_id": "69ddf796919956327a446551",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    }
+  }
+}
